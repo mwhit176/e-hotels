@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.example.CustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <servlet-class>com.example.EmployeeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CustomerManagerServlet</servlet-name>
+    <servlet-class>com.example.CustomerManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmployeeManagerServlet</servlet-name>
+    <servlet-class>com.example.EmployeeManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>HotelManagerServlet</servlet-name>
+    <servlet-class>com.example.HotelManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RoomManagerServlet</servlet-name>
+    <servlet-class>com.example.RoomManagerServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/customer-servlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeServlet</servlet-name>
+    <url-pattern>/employee-servlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerManagerServlet</servlet-name>
+    <url-pattern>/customer-manager-servlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmployeeManagerServlet</servlet-name>
+    <url-pattern>/employee-manager-servlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HotelManagerServlet</servlet-name>
+    <url-pattern>/hotel-manager-servlet/*</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoomManagerServlet</servlet-name>
+    <url-pattern>/room-manager-servlet/*</url-pattern>
+  </servlet-mapping>
+
+</web-app>
